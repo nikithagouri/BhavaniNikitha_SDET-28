@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="51.141855">
+    <testcase classname="Elearning" name="SignUp_Functionality and Compose an Email" time="51.141855">
+        <system-out><![CDATA[Given User is on the Login Page and clicks on SignUp........................passed
+When Registration page opens up and Enter all the mandatory fields "Nikitha","Gourisetty","Nik24@gmail.com","NikiGouri32","Nik@123","Nik@123".passed
+And Click on Register button................................................passed
+Then Success Message is displayed in another page "Nikitha","Gourisetty"....passed
+When User navigates to Homepage.............................................passed
+And Clicks on Compose.......................................................passed
+And Enter Send to,Subject,Message...........................................passed
+And Clicks on Send Message..................................................passed
+Then Validate the success message...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 18,
+        "name": "SignUp_Functionality and Compose an Email",
+        "description": "",
+        "id": "elearning;signup-functionality-and-compose-an-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13457599601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Login Page and clicks on SignUp",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.user_is_on_the_Login_Page_and_clicks_on_SignUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 514488399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Registration page opens up and Enter all the mandatory fields \"Nikitha\",\"Gourisetty\",\"Nik24@gmail.com\",\"NikiGouri32\",\"Nik@123\",\"Nik@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nikitha",
+                  "offset": 63
+                },
+                {
+                  "val": "Gourisetty",
+                  "offset": 73
+                },
+                {
+                  "val": "Nik24@gmail.com",
+                  "offset": 86
+                },
+                {
+                  "val": "NikiGouri32",
+                  "offset": 104
+                },
+                {
+                  "val": "Nik@123",
+                  "offset": 118
+                },
+                {
+                  "val": "Nik@123",
+                  "offset": 128
+                }
+              ],
+              "location": "SignUp_and_ComposeEmail.registration_page_opens_up_and_Enter_all_the_mandatory_fields(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11111100800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Register button",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61317099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Success Message is displayed in another page \"Nikitha\",\"Gourisetty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nikitha",
+                  "offset": 46
+                },
+                {
+                  "val": "Gourisetty",
+                  "offset": 56
+                }
+              ],
+              "location": "SignUp_and_ComposeEmail.success_Message_is_displayed_in_another_page(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4711139200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to Homepage",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.user_navigates_to_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9697595100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Clicks on Compose",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.clicks_on_Compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8322186801,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Send to,Subject,Message",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.enter_Send_to_Subject_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2513457300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Clicks on Send Message",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.clicks_on_Send_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 752970900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate the success message",
+            "match": {
+              "location": "SignUp_and_ComposeEmail.validate_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SignUp"
+          },
+          {
+            "line": 1,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Elearning",
+    "description": "",
+    "id": "elearning",
+    "keyword": "Feature",
+    "uri": "SignUp_ComposeEmail.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
